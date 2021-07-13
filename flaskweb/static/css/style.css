@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: pink;
+}
+
+#demo{
+    color: black;
+    font-size: 2em;
+}

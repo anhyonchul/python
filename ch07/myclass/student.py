@@ -1,0 +1,15 @@
+# 학생 클래스 생성과 사용
+
+class Student:
+    def __init__(self,school, sid, name):
+        self.school = school
+        self.sid = sid
+        self.name = name
+    def showinfo(self):
+        print(self.school, self.sid, self.name)
+
+if __name__ == "__main__":  #이건 여기서만 실행되게 한다. 다른파일에서 클래스를 불러도 아래는 표시 안됨.
+    s1 = Student("경기대학교", 200230145, "안현철")
+    s2 = Student("경기대학교", 200230120, "조선익")
+    s1.showinfo()
+    s2.showinfo()
